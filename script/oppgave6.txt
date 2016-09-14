@@ -1,0 +1,3 @@
+Formålet med sudo er å la bestemte brukere kunne kjøre bestemte programmer under en annen brukers identitet, uten å kjenne den andres passord. F.eks la en vanlig bruker kjøre som root. 
+Problemet med dette er brukere kan kjøre scripts som de egentlig ikke har tilgang til som root eller en annen bruker. 
+Det at man ikke kjøre scripts som kan ødelegge hele systemet uten rootpassordet, men med ditt personlige passord med sudo kommandoen kan være farlig. 
